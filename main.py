@@ -9,8 +9,12 @@ def main():
     
     result = calculate_sum(num1, num2)
     print("두 수의 합은:", result)
+ 
+   original_string = "Hello, World!"
+   uppercase_string = to_uppercase(original_string)
+   print(uppercase_string)
 
-# 메인 함수 실행
-if __name__ == "__main__":
-    main()
+
+def to_uppercase(input_string):
+    return input_string.upper()
 
